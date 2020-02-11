@@ -1,0 +1,16 @@
+def split_string(string):
+    new_string=string.split(" ")
+    return new_string
+def join_string(new_string):
+    string = "-".join(new_string)
+    return string
+string= input("Use Entered...")
+new_string= split_string(string)
+print(new_string)
+result=join_string(new_string)
+print(result)
+
+Output:
+Use Entered...my sweet family
+['my', 'sweet', 'family']
+my-sweet-family
