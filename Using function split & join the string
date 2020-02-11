@@ -1,0 +1,8 @@
+def split_string(string):
+    return "-".join(string.split(" "))
+
+print(split_string(input()))
+
+Output:
+Hacker Rank
+Hacker-Rank
